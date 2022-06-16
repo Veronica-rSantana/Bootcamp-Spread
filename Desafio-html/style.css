@@ -1,0 +1,63 @@
+.logo{
+    width: 100px;
+    height: 100px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+body{
+    background-color: rgb(83, 74, 163);
+}
+.imagem-header{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+}
+#title, .subtitle{
+    color: rgb(240, 226, 230);
+    font-family: 'Lobster Two', cursive;
+    text-transform: uppercase;
+    
+}
+
+.post-title{
+    font-size: 16px;
+    font-style: italic;
+    color: aqua;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post{
+    background-color: azure;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 15px;
+    font-family: 'Noto display', serif;
+}
+.post-content{
+    margin: 0;
+    margin-bottom: 15px;
+}
+.link{
+    color: rgb(189, 45, 134);
+    text-transform: capitalize;
+    text-decoration: line-through rgb(189, 45, 134) ;
+}
+ul{
+    color: rgb(189, 45, 134);
+    text-transform: capitalize;
+    font-family: 'Lobster Two', cursive;
+    text-decoration: line-through rgb(189, 45, 134) ;
+    list-style-type: none;
+    display: flex;
+    margin: 10px 10px 5px 0;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: aliceblue;
+    display: flex;
+    
+}
